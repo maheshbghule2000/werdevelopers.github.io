@@ -839,7 +839,7 @@ _mbaspacification(context) {
               Container(
                 height: 400,
                 width: 300,
-                color: Color.fromARGB(255, 206, 235, 252),
+                color: const Color.fromARGB(255, 206, 235, 252),
                 child: Column(
                   children: [
                     Padding(
@@ -926,20 +926,20 @@ _accreditationsdesign() {
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text('ACCREDITATIONS & DESIGNATIONS'),
-              SizedBox(
+              const Text('ACCREDITATIONS & DESIGNATIONS'),
+              const SizedBox(
                 height: 20,
               ),
-              Text(
+              const Text(
                 'Advance your\ncareer at UCW',
                 style: TextStyle(fontSize: 50, fontWeight: FontWeight.bold),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 15,
               ),
-              Text(
+              const Text(
                   'Students that meet the requirements can qualify\nto earn certifications including:'),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               Column(
@@ -951,7 +951,7 @@ _accreditationsdesign() {
                         'cphr.png',
                         height: 50,
                       ),
-                      SizedBox(
+                      const SizedBox(
                         width: 50,
                       ),
                       Image.asset(
@@ -960,7 +960,7 @@ _accreditationsdesign() {
                       ),
                     ],
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 20,
                   ),
                   Image.asset(
@@ -971,7 +971,7 @@ _accreditationsdesign() {
               )
             ],
           ),
-          SizedBox(
+          const SizedBox(
             width: 100,
           ),
           Column(
@@ -999,7 +999,7 @@ _digitalvision() {
               ),
             ],
           ),
-          SizedBox(
+          const SizedBox(
             width: 50,
           ),
           Row(
@@ -1009,19 +1009,19 @@ _digitalvision() {
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text('JOIN A UNIVERSITY WITH A DIGITAL VISION'),
-                  SizedBox(
+                  const Text('JOIN A UNIVERSITY WITH A DIGITAL VISION'),
+                  const SizedBox(
                     height: 20,
                   ),
-                  Text('Vancouver’s tech-\nbusiness university',
+                  const Text('Vancouver’s tech-\nbusiness university',
                       style:
                           TextStyle(fontSize: 40, fontWeight: FontWeight.bold)),
-                  SizedBox(
+                  const SizedBox(
                     height: 20,
                   ),
-                  Text(
+                  const Text(
                       'To ensure our students receive the most current\neducation possible, we collaborate with digital\nleaders such as Salesforce, Amazon, Shopify,\nFacebook and many others to add relevant digital\ncomponents to our courses.'),
-                  SizedBox(
+                  const SizedBox(
                     height: 20,
                   ),
                   Image.asset(
@@ -1045,18 +1045,18 @@ _studwidget() {
         child: Column(
           children: [
             Image.asset('mba_stud.png'),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
-            Text(
+            const Text(
               '10,000+ STUDENTS',
               style: TextStyle(
                   color: Color(0xff0F5556), fontWeight: FontWeight.bold),
             ),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
-            Text('From more than 110 countries'),
+            const Text('From more than 110 countries'),
           ],
         ),
       ),
@@ -1064,16 +1064,16 @@ _studwidget() {
         child: Column(
           children: [
             Image.asset('icons_classes.png'),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
-            Text('WORK EXPERIENCE',
+            const Text('WORK EXPERIENCE',
                 style: TextStyle(
                     color: Color(0xff0F5556), fontWeight: FontWeight.bold)),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
-            Text(
+            const Text(
                 'Gain work experience with real-life \n case studies and practicums'),
           ],
         ),
@@ -1082,16 +1082,16 @@ _studwidget() {
         child: Column(
           children: [
             Image.asset('faculty.png'),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
-            Text('EXPERIENCED FACULTY',
+            const Text('EXPERIENCED FACULTY',
                 style: TextStyle(
                     color: Color(0xff0F5556), fontWeight: FontWeight.bold)),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
-            Text('With first-hand industry experience'),
+            const Text('With first-hand industry experience'),
           ],
         ),
       ),
@@ -1118,7 +1118,7 @@ _ucwwidget(context) {
               ),
             ),
           ),
-          SizedBox(
+          const SizedBox(
             height: 20,
           ),
           Container(
@@ -1126,7 +1126,7 @@ _ucwwidget(context) {
               padding: const EdgeInsets.only(left: 60, top: 40),
               child: Row(
                 children: [
-                  Text(
+                  const Text(
                       'UCW alumni work at world-\nleading companies like Apple,\nTelus,Walt Disney World,\nAmazon and Deloitte.',
                       style: TextStyle(
                         fontSize: 25,
@@ -1134,15 +1134,15 @@ _ucwwidget(context) {
                         color: Colors.white,
                         height: 1.5,
                       )),
-                  SizedBox(
+                  const SizedBox(
                     width: 300,
                   ),
                   Center(
                     child: Container(
                       height: 40,
                       width: 200,
-                      color: Color(0xffCF202F),
-                      child: Center(
+                      color: const Color(0xffCF202F),
+                      child: const Center(
                           child: Text('Request Information',
                               style: TextStyle(fontWeight: FontWeight.bold))),
                     ),
@@ -1159,10 +1159,226 @@ _ucwwidget(context) {
 
 _successstory() {
   return Container(
-    child: Row(
-      mainAxisAlignment: MainAxisAlignment.center,
+    child: Column(
       children: [
-       Text("UCW’S")
+        const Text(
+          "UCW’S",
+          style:
+              TextStyle(color: Color(0xff153A62), fontWeight: FontWeight.bold),
+        ),
+        const SizedBox(
+          height: 10,
+        ),
+        const Text(
+          "Success stories",
+          style: TextStyle(
+              color: Colors.black, fontSize: 35, fontWeight: FontWeight.bold),
+        ),
+        const SizedBox(
+          height: 10,
+        ),
+        Padding(
+          padding: const EdgeInsets.only(right: 60, left: 60),
+          child: Row(
+            children: [
+              Expanded(
+                child: Container(
+                  height: 400,
+                  color: const Color(0xffccccff),
+                  child: Column(children: [
+                    const SizedBox(
+                      height: 20,
+                    ),
+                    const Text(
+                      '“BCA for busy\n professionals!”',
+                      style: TextStyle(
+                          color: Colors.black,
+                          fontSize: 20,
+                          fontWeight: FontWeight.bold),
+                    ),
+                    const SizedBox(
+                      height: 30,
+                    ),
+                    const Text(
+                      'The BCA program prepared me \n very well to take-on a rigorous \n  curriculum that leads to the \n  doctorate… I’m glad UCW \n  provided me with that great \n  deal of preparation.',
+                      style: TextStyle(
+                          color: Colors.black, fontSize: 15, height: 1.7),
+                    ),
+                    const SizedBox(
+                      height: 40,
+                    ),
+                    Row(
+                      children: [
+                        const Padding(padding: EdgeInsets.only(right: 30)),
+                        const CircleAvatar(
+                          backgroundImage: AssetImage(
+                            'MaheshGhule.jpg',
+                          ),
+                          radius: 30,
+                        ),
+                        const SizedBox(
+                          width: 15,
+                        ),
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: const [
+                            Text(
+                              'Mahesh Ghule',
+                              style: TextStyle(
+                                  fontSize: 15,
+                                  fontWeight: FontWeight.bold,
+                                  color: Color(0xff366A7E)),
+                            ),
+                            SizedBox(
+                              height: 5,
+                            ),
+                            Text(
+                              'Flutter Developer',
+                              style: TextStyle(fontSize: 10),
+                            )
+                          ],
+                        )
+                      ],
+                    )
+                  ]),
+                ),
+              ),
+              const SizedBox(
+                width: 20,
+              ),
+              Expanded(
+                child: Container(
+                  height: 400,
+                  color: const Color(0xffccccff),
+                  child: Column(children: [
+                    const SizedBox(
+                      height: 20,
+                    ),
+                    const Text(
+                      '"Great preparation!"',
+                      style: TextStyle(
+                          color: Colors.black,
+                          fontSize: 20,
+                          fontWeight: FontWeight.bold),
+                    ),
+                    const SizedBox(
+                      height: 30,
+                    ),
+                    const Text(
+                      'The BCA program prepared me \n very well to take-on a rigorous \n  curriculum that leads to the \n  doctorate… I’m glad UCW \n  provided me with that great \n  deal of preparation.',
+                      style: TextStyle(
+                          color: Colors.black, fontSize: 15, height: 1.7),
+                    ),
+                    const SizedBox(
+                      height: 60,
+                    ),
+                    Row(
+                      children: [
+                        const Padding(padding: EdgeInsets.only(right: 30)),
+                        const CircleAvatar(
+                          backgroundImage: AssetImage(
+                            'tejas.jpg',
+                          ),
+                          radius: 30,
+                        ),
+                        const SizedBox(
+                          width: 15,
+                        ),
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: const [
+                            Text(
+                              'Tejas Jadhav',
+                              style: TextStyle(
+                                  fontSize: 15,
+                                  fontWeight: FontWeight.bold,
+                                  color: Color(0xff366A7E)),
+                            ),
+                            SizedBox(
+                              height: 5,
+                            ),
+                            Text(
+                              'Flutter Developer',
+                              style: TextStyle(fontSize: 10),
+                            )
+                          ],
+                        )
+                      ],
+                    )
+                  ]),
+                ),
+              ),
+              const SizedBox(
+                width: 20,
+              ),
+              Expanded(
+                child: Container(
+                  height: 400,
+                  color: const Color(0xffccccff),
+                  child: Column(children: [
+                    const SizedBox(
+                      height: 20,
+                    ),
+                    const Text(
+                      '“Flexible study\n schedule!',
+                      style: TextStyle(
+                          color: Colors.black,
+                          fontSize: 20,
+                          fontWeight: FontWeight.bold),
+                    ),
+                    const SizedBox(
+                      height: 30,
+                    ),
+                    const Text(
+                      'UCW’s BCA program allows me\n the incredible opportunity of a\n flexible study schedule, and the\n ability to apply my education in\n real-time at work. The networking\n opportunities are invaluable.',
+                      style: TextStyle(
+                          color: Colors.black, fontSize: 15, height: 1.7),
+                    ),
+                    const SizedBox(
+                      height: 40,
+                    ),
+                    Row(
+                      children: [
+                        const Padding(padding: EdgeInsets.only(right: 30)),
+                        const CircleAvatar(
+                          backgroundImage: AssetImage(
+                            'ashish.jpg',
+                          ),
+                          radius: 30,
+                        ),
+                        const SizedBox(
+                          width: 15,
+                        ),
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: const [
+                            Text(
+                              'Ashish Shinde',
+                              style: TextStyle(
+                                  fontSize: 15,
+                                  fontWeight: FontWeight.bold,
+                                  color: Color(0xff366A7E)),
+                            ),
+                            SizedBox(
+                              height: 5,
+                            ),
+                            Text(
+                              'Flutter Developer',
+                              style: TextStyle(fontSize: 10),
+                            )
+                          ],
+                        )
+                      ],
+                    )
+                  ]),
+                ),
+              ),
+              const SizedBox(
+                width: 20,
+              ),
+            ],
+          ),
+        )
       ],
     ),
   );
