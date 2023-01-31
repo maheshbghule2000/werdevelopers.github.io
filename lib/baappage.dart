@@ -53,7 +53,11 @@ class baap extends StatelessWidget {
           const SizedBox(
             height: 20,
           ),
-          _successstory()
+          _successstory(),
+          const SizedBox(
+            height: 10,
+          ),
+          _aboutwidget(context),
         ],
       ),
     );
@@ -1277,7 +1281,7 @@ _successstory() {
                         const Padding(padding: EdgeInsets.only(right: 30)),
                         const CircleAvatar(
                           backgroundImage: AssetImage(
-                            'tejas.jpg',
+                            'mac.jpg',
                           ),
                           radius: 30,
                         ),
@@ -1288,7 +1292,7 @@ _successstory() {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: const [
                             Text(
-                              'Tejas Jadhav',
+                              'Yash Prajapati',
                               style: TextStyle(
                                   fontSize: 15,
                                   fontWeight: FontWeight.bold,
@@ -1342,7 +1346,7 @@ _successstory() {
                         const Padding(padding: EdgeInsets.only(right: 30)),
                         const CircleAvatar(
                           backgroundImage: AssetImage(
-                            'ashish.jpg',
+                            'mac.jpg',
                           ),
                           radius: 30,
                         ),
@@ -1353,7 +1357,7 @@ _successstory() {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: const [
                             Text(
-                              'Ashish Shinde',
+                              'flutter Dev',
                               style: TextStyle(
                                   fontSize: 15,
                                   fontWeight: FontWeight.bold,
@@ -1382,4 +1386,12 @@ _successstory() {
       ],
     ),
   );
+   }
+  _aboutwidget(context) {
+    return Row(
+      children: [
+        Image.asset('end.jpg', width: MediaQuery.of(context).size.width)
+      ],
+    );
+ 
 }
