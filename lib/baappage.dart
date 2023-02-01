@@ -1188,7 +1188,7 @@ _successstory() {
               Expanded(
                 child: Container(
                   height: 400,
-                  color: const Color(0xffccccff),
+                  color: const Color(0xfffffbf0),
                   child: Column(children: [
                     const SizedBox(
                       height: 20,
@@ -1253,7 +1253,7 @@ _successstory() {
               Expanded(
                 child: Container(
                   height: 400,
-                  color: const Color(0xffccccff),
+                  color: const Color(0xfffffbf0),
                   child: Column(children: [
                     const SizedBox(
                       height: 20,
@@ -1318,7 +1318,7 @@ _successstory() {
               Expanded(
                 child: Container(
                   height: 400,
-                  color: const Color(0xffccccff),
+                  color: const Color(0xfffffbf0),
                   child: Column(children: [
                     const SizedBox(
                       height: 20,
